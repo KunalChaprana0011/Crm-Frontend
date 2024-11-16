@@ -63,7 +63,7 @@ import mongoose, { Schema } from "mongoose";
 export const Contact = mongoose.model("Contact", ContactSchema);
 
 # API routes
-```bash
+
 - GET /api/contacts
 - POST /api/contacts
 - PUT /api/contacts/:id
