@@ -1,3 +1,5 @@
+
+
 # Frontend: CRM Contact Management System
 
 ## Project Setup
@@ -35,7 +37,7 @@ npm start
 
    ```bash
    git clone https://github.com/<your-username>/crm.git
-cd crm/backend
+    cd crm/backend
 
 npm install
 
@@ -44,9 +46,9 @@ PORT=8000
 npm start
 
 # Mongoose Database Schema
+```bash
 import mongoose, { Schema } from "mongoose";
-
-const ContactSchema = new mongoose.Schema(
+ const ContactSchema = new mongoose.Schema(
   {
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
@@ -61,10 +63,14 @@ const ContactSchema = new mongoose.Schema(
 export const Contact = mongoose.model("Contact", ContactSchema);
 
 # API routes
-GET /api/contacts
-POST /api/contacts
-PUT /api/contacts/:id
-DELETE /api/contacts/:id
+```bash
+- GET /api/contacts
+- POST /api/contacts
+- PUT /api/contacts/:id
+- DELETE /api/contacts/:id
+
+
+
 
 
 
